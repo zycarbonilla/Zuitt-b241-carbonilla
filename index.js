@@ -33,8 +33,8 @@
 	let monthsYear = 12;
 	let daysYear = 365;
 
-	let resultMinutes = 60 * 24 * 365;
-	console.log("There are " + resultMinutes);
+	let resultMinutes = minutesHour * hoursDay * daysYear;
+	console.log("There are" + resultMinutes + " minutes in a year.");
 /*
 	3. Given the values below, calculate and convert the temperature from celsius to fahrenheit and save the result in a variable called resultFahrenheit.
 */
